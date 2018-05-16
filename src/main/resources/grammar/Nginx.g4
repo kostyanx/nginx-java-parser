@@ -155,7 +155,7 @@ Comment
     '#' ~[\r\n]*;
 
 REGEXP_PREFIXED
-  : (RegexpPrefix)[a-zA-Z0-9_/\.,\-:=~+!?$&^*\[\]@|#)(]+
+  : (RegexpPrefix)[a-zA-Z0-9_/\.,\-:=~+!?$&^*\[\]@|#)(><]+
   ;
 
 QUOTED_STRING
